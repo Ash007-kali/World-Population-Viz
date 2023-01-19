@@ -222,7 +222,7 @@ let listContinents = ["Africa", "Americas", "Asia", "Europe","NA","Oceania"];
               <Tooltip hovered={hovered} tooltipData={tooltipData}  relPos={relPos}/>
 
               <svg height='600px' width='100%' id='svgcan' >
-                <AxisLeft ymin={yMin} paddingRight={marginLeft} yScale={yScale} y={10} xScale={xScale} x={xMax} />  
+                <AxisLeft label={"Growth (%)"} height={500} ymin={yMin} paddingRight={marginLeft} yScale={yScale} y={10} xScale={xScale} x={xMax} />  
                 <Scatter 
                 setRelPos={setRelPos} settooltipData={settooltipData} setHovered={setHovered}
                 colorScale={colorScale} size={sSize} xScale={xScale} yScale={yScale} 
@@ -246,7 +246,7 @@ let listContinents = ["Africa", "Americas", "Asia", "Europe","NA","Oceania"];
               <div id="line-graph-container">
                   <svg height={400} width="100%">
 
-                    <AxisLeft suffix={"Bn"} ymin={0} paddingRight={marginLeftLine} yScale={yScaleLine} y={popMax} xScale={xScaleLine} x={2022} />  
+                    <AxisLeft  height={350} suffix={"Bn"} ymin={0} paddingRight={marginLeftLine} yScale={yScaleLine} y={popMax} xScale={xScaleLine} x={2022} />  
                     <Line xScale={xScaleLine} yScale={yScaleLine} data={worldAvg} paddingRight={marginLeftLine} />
                     <AxisBottomLine x={2022} paddingRight={marginLeftLine} xScale={xScaleLine} disyY={marginTop+300}  />
                   </svg>
