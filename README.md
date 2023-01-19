@@ -3,6 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
+![](Image/preview_i.png)
+
+
 ### Steps to use:
 
 ### Clone using
