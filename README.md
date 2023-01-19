@@ -13,4 +13,4 @@ cd <location>
   
 ### Run 'npm i'
   
-### npm start
+### Run 'npm start'
